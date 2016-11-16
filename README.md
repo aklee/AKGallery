@@ -1,5 +1,6 @@
+
 # AKGallery
-[小木轮]图片浏览器
+<img src="./pics/Icon-180.png" width="60px;"/> 
 
 
 
