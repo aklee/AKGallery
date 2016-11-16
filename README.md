@@ -5,6 +5,10 @@
 
 ####效果图片<br />
 ![image](./AKGalleryDemo.gif)<br /><br />
+![image](./pics/Demo1.png)
+![image](./pics/Demo2.png)
+![image](./pics/Demo3.png)
+
 
 
 <br /><br />
