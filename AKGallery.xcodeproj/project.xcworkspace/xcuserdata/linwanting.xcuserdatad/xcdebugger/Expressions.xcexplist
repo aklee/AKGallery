@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[AKGalleryViewerContainer viewDidLoad]:AKGalleryViewer.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AKGalleryViewerContainer pageViewController:didFinishAnimating:previousViewControllers:transitionCompleted:]:AKGalleryViewer.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AKGallery setItems:]:AKGallery.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.items">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AKInterativeDismissToList updateInteractiveTransition:]:AKInterativeDismissToList.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AKGalleryViewerContainer pageViewController:willTransitionToViewControllers:]:AKGalleryViewer.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AKGalleryViewerContainer pageViewController:viewControllerAfterViewController:]:AKGalleryViewer.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.pageVC.viewControllers">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AKGallery setSelectIndex:]:AKGallery.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_selectIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AKGalleryViewer viewWillAppear:]:AKGalleryViewer.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.gallery.items">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AKGalleryViewer init]:AKGalleryViewer.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AKGalleryViewer gallery]:AKGalleryViewer.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.parentViewController">
+            </PersistentString>
+            <PersistentString
+               value = "self.containerVC.navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AKInterativeDismissToList cancelInteractiveTransition]:AKInterativeDismissToList.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "  self.fromView.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
