@@ -5,9 +5,9 @@
 
 ####效果图片<br />
 ![image](./AKGalleryDemo.gif)<br /><br />
-![image](./pics/Demo1.png)
-![image](./pics/Demo2.png)
-![image](./pics/Demo3.png)
+![image](./pics/demo1.png)
+![image](./pics/demo2.png)
+![image](./pics/demo3.png)
 
 
 
@@ -53,6 +53,9 @@
             gallery.completion=^{
                 NSLog(@"completion gallery");
                 
+            };
+            gallery.choose=^(NSInteger idx) {
+                NSLog(@"you choose img:%ld",idx);
             };
             //show gallery
             [self presentAKGallery:gallery animated:YES completion:nil];
