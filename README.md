@@ -21,6 +21,8 @@
 
 
 ####使用方式<br />
+支持iOS7及以上
+
 ```
             #import "AKGallery.h"
   
