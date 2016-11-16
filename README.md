@@ -6,31 +6,41 @@
 ####效果图片<br />
 ![image](./AKGalleryDemo.gif)<br /><br />
 
-<br />
-####特性：<br />
->1.易用<br />
->2.减耦<br />
->3.可扩展<br />
 
 <br /><br />
 
-####使用其他三方资源<br />
+####三方资源<br />
 >1.Masonry<br />
 >2.SDWebImage<br />
 
 
 ####使用方式<br />
 ```
-  #import "AKGallery.h"
+            #import "AKGallery.h"
   
   
- AKGallery* gallery = AKGallery.new;
+            AKGallery* gallery = AKGallery.new;
             
+            //设置方式1 set items
             AKGalleryItem* item1 = [AKGalleryItem itemWithTitle:@"test1" url: @"http://pic.58pic.com/58pic/11/47/30/17v58PICrPa.jpg" img:nil];
             
             AKGalleryItem* item2 = [AKGalleryItem itemWithTitle:@"test2" url: @"http://www.88tou.com/wp-content/uploads/2013/01/88ttese2013012168.jpg" img:nil];
             
             gallery.items=@[item1,item2];
+            
+            
+            //或者设置方式2 set items
+            gallery.items=@[
+                            @"http://img2.imgtn.bdimg.com/it/u=1900813244,4209729478&fm=21&gp=0.jpg",
+                            @"http://img1.imgtn.bdimg.com/it/u=1064862525,2849788414&fm=21&gp=0.jpg",
+                            @"http://www.88tou.com/wp-content/uploads/2013/01/88ttese2013012165.jpg",
+                            @"http://pic.58pic.com/58pic/11/47/30/17v58PICrPa.jpg",
+                            @"http://v1.qzone.cc/avatar/201411/20/17/22/546db2c587ff4915.jpg%21180x180.jpg",
+                            @"http://www.88tou.com/wp-content/uploads/2013/01/88ttese2013012168.jpg",
+                            @"http://imgsrc.baidu.com/forum/w%3D580/sign=e2203e28b74543a9f51bfac42e168a7b/7af40ad162d9f2d30615c433a9ec8a136227cce2.jpg",
+                            ];
+            
+
             
             
             
